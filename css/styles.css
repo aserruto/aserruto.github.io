@@ -73,7 +73,7 @@ img {
 /* Jumbotron */
 
 .jumb__container {
-    width: 1500px;
+    max-width: 1500px;
     margin: 0 auto;
     flex-flow: row;
     gap: 50px;
@@ -140,7 +140,7 @@ img {
 
 
 .jumb__imagen {
-    width: 980px;
+    max-width: 980px;
 }
 
 /* Cards section */
@@ -206,3 +206,9 @@ img {
     border-style: none;
 }
     
+@media screen and (max-width: 700px) {
+    .flex {
+        flex-flow: column;
+        align-items: center;
+    }
+  }
